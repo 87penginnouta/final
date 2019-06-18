@@ -88,6 +88,17 @@ body {
   border-radius: 50%;
 }
 
+.lack:before{
+  content:'';
+  position:absolute;
+  width:50px;
+  height:10px;
+  top:35px;
+  left:190px;
+  background:$bg_color1;
+  border-radius:50%;
+}
+
 /*------------郵筒------------*/
 /*郵筒a*/
 .postbox_a {
@@ -285,7 +296,7 @@ body {
   position: absolute;
   width: 600px;
   height: 120px;
-  bottom: 50px;
+  bottom: 20px;
   left: 0;
   transition: transform 1s;
 }
